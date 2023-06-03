@@ -1,8 +1,24 @@
-@each $key, $val in $colors{
-    .text-#{key} {
+@each $key,
+$val in $colors {
+    .text-#{$key} {
         color: $val;
     }
-    .bg-#{$key}{
+
+    .bg-#{$key} {
         background-color: $val;
     }
+
+    // light variations 
+    @for $i from 1 through 9 {
+        .text-#{$key}-light-#{$i}{
+            color: mix(white, $val, $i * 10);
+        }
+        .bg-#{$key}-light-#{$i}{
+            background-color: mix(white, $val, $i * 10);
+        }
+    }
+
+
+    //  dark variations o
+
 }
