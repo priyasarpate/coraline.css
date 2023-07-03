@@ -1,0 +1,16 @@
+.color-container{
+    background-color: whitesmoke;
+}
+.colors-box{
+    display: flex;
+    gap: 10px;
+}
+.box-primary{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: blue;
+}
+.pallets{
+    margin: 8px;
+}

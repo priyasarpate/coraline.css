@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="docs.css" />
     <title>Coraline CSS🪄</title>
   </head>
   <body>
     <!-- navbar -->
     <nav class="navbar justify-between">
       <div class="container">
-        <h1 class="site-title">Coraline CSS</h1>
+        <h1 class="site-title">Coraline CSS🪄</h1>
         <ul class="display-f">
           <li class="ml-1 text-hover-secondary">
             <a href="#work">Home</a>
@@ -26,39 +27,171 @@
     </nav>
 
     <!-- intro -->
-    <div class="row justify-center mt-4" style="text-align: center">
+    <!-- <div class="row justify-center mt-4" style="text-align: center">
       <div class="col justify-center mt-4">
         <div class="">
           <h2>
-            <div class="font-xxl">Coraline CSS🪄</div>
+            <div class="font-xxl">Coraline CSS</div>
             <div class="font-xl text-gray mb-2">Minimal CSS Library.</div>
           </h2>
           <a href="#work" class="btn-secondary text-white"> Get Started </a>
-          <!-- class="btn-outlined-secondary text-secondary text-hover-white" -->
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Library components -->
+    <div class="pr-5 pl-5">
+      <!-- colors  -->
+      <h2 class="mt-5">Colors</h2>
+      <hr style="border: 1px solid whitesmoke" />
+      <p style="padding: 20px">
+        SimpleUI recommends to use the colors of the palette below as the rule
+        for design and development for ensuring the visual consistence among the
+        pages and components.
+      </p>
+      <hr style="border: 1px solid whitesmoke" />
+      <!-- <div class="container pt-2" >
+        <div class="color-container">
+        <span class="text-primary">primary text</span> 
+        <span class="text-secondary">secondary text</span> 
+        <span class="text-error">error text</span> 
+        <span class="text-info">info text</span> 
+        <span class="text-blue">blue text</span> 
+        <span class="text-red">red text</span> 
+        <span class="text-green">green text</span> 
+        <span class="text-yellow">yellow text</span> 
+        <span class="text-purple">purple text</span> 
+        <span class="text-orange">orange text</span> 
+        <span class="text-gray">gray text</span>
+      </div>
+      </div> -->
+
+      <!-- background colors  -->
+      <div class="container pt-2">
+        <div class="bg-primary text-white">bg primary</div>
+        <div class="bg-secondary text-white">bg secondary</div>
+        <div class="bg-error text-white">bg error</div>
+        <div class="bg-info text-white">bg info</div>
+        <div class="bg-blue text-white">bg blue</div>
+        <div class="bg-red text-white">bg red</div>
+        <div class="bg-green text-white">bg green</div>
+        <div class="bg-yellow text-white">bg yellow</div>
+        <div class="bg-purple text-white">bg purple</div>
+        <div class="bg-orange text-white">bg orange</div>
+        <div class="bg-gray text-white">bg gray</div>
+      </div>
+
+      <!-- color variants  -->
+
+      <div class="row justify-center">
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="pallets">
+            <div class="bg-primary-light-8 text-white">primary light 8</div>
+            <div class="bg-primary-light-6 text-white">primary light 6</div>
+            <div class="bg-primary-light-4 text-white">primary light 4</div>
+            <div class="bg-primary-light-2 text-white">primary light 2</div>
+            <div class="bg-primary text-white">primary</div>
+            <div class="bg-primary-dark-2 text-white">primary dark 2</div>
+            <div class="bg-primary-dark-4 text-white">primary dark 4</div>
+            <div class="bg-primary-dark-6 text-white">primary dark 6</div>
+            <div class="bg-primary-dark-8 text-white">primary dark 8</div>
+          </div>
+        </div>
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="pallets">
+            <div class="bg-secondary-light-8 text-white">secondary light 8</div>
+            <div class="bg-secondary-light-6 text-white">secondary light 6</div>
+            <div class="bg-secondary-light-4 text-white">secondary light 4</div>
+            <div class="bg-secondary-light-2 text-white">secondary light 2</div>
+            <div class="bg-secondary text-white">secondary</div>
+            <div class="bg-secondary-dark-2 text-white">secondary dark 2</div>
+            <div class="bg-secondary-dark-4 text-white">secondary dark 4</div>
+            <div class="bg-secondary-dark-6 text-white">secondary dark 6</div>
+            <div class="bg-secondary-dark-8 text-white">secondary dark 8</div>
+          </div>
+        </div>
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="pallets">
+            <div class="bg-error-light-8 text-white">error light 8</div>
+            <div class="bg-error-light-6 text-white">error light 6</div>
+            <div class="bg-error-light-4 text-white">error light 4</div>
+            <div class="bg-error-light-2 text-white">error light 2</div>
+            <div class="bg-error text-white">error</div>
+            <div class="bg-error-dark-2 text-white">error dark 2</div>
+            <div class="bg-error-dark-4 text-white">error dark 4</div>
+            <div class="bg-error-dark-6 text-white">error dark 6</div>
+            <div class="bg-error-dark-8 text-white">error dark 8</div>
+          </div>
+        </div>
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="pallets">
+            <div class="bg-info-light-8 text-white">info light 8</div>
+            <div class="bg-info-light-6 text-white">info light 6</div>
+            <div class="bg-info-light-4 text-white">info light 4</div>
+            <div class="bg-info-light-2 text-white">info light 2</div>
+            <div class="bg-info text-white">info</div>
+            <div class="bg-info-dark-2 text-white">info dark 2</div>
+            <div class="bg-info-dark-4 text-white">info dark 4</div>
+            <div class="bg-info-dark-6 text-white">info dark 6</div>
+            <div class="bg-info-dark-8 text-white">info dark 8</div>
+          </div>
+        </div>
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="pallets">
+            <div class="bg-blue-light-8 text-white">blue light 8</div>
+            <div class="bg-blue-light-6 text-white">blue light 6</div>
+            <div class="bg-blue-light-4 text-white">blue light 4</div>
+            <div class="bg-blue-light-2 text-white">blue light 2</div>
+            <div class="bg-blue text-white">blue</div>
+            <div class="bg-blue-dark-2 text-white">blue dark 2</div>
+            <div class="bg-blue-dark-4 text-white">blue dark 4</div>
+            <div class="bg-blue-dark-6 text-white">blue dark 6</div>
+            <div class="bg-blue-dark-8 text-white">info dark 8</div>
+          </div>
+        </div>
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="pallets">
+            <div class="bg-red-light-8 text-white">red light 8</div>
+            <div class="bg-red-light-6 text-white">red light 6</div>
+            <div class="bg-red-light-4 text-white">red light 4</div>
+            <div class="bg-red-light-2 text-white">red light 2</div>
+            <div class="bg-red text-white">red</div>
+            <div class="bg-red-dark-2 text-white">red dark 2</div>
+            <div class="bg-red-dark-4 text-white">red dark 4</div>
+            <div class="bg-red-dark-6 text-white">red dark 6</div>
+            <div class="bg-red-dark-8 text-white">info dark 8</div>
+          </div>
+        </div>
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="pallets">
+            <div class="bg-green-light-8 text-white">green light 8</div>
+            <div class="bg-green-light-6 text-white">green light 6</div>
+            <div class="bg-green-light-4 text-white">green light 4</div>
+            <div class="bg-green-light-2 text-white">green light 2</div>
+            <div class="bg-green text-white">green</div>
+            <div class="bg-green-dark-2 text-white">green dark 2</div>
+            <div class="bg-green-dark-4 text-white">green dark 4</div>
+            <div class="bg-green-dark-6 text-white">green dark 6</div>
+            <div class="bg-green-dark-8 text-white">info dark 8</div>
+          </div>
+        </div>
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="pallets">
+            <div class="bg-yellow-light-8 text-white">yellow light 8</div>
+            <div class="bg-yellow-light-6 text-white">yellow light 6</div>
+            <div class="bg-yellow-light-4 text-white">yellow light 4</div>
+            <div class="bg-yellow-light-2 text-white">yellow light 2</div>
+            <div class="bg-yellow text-white">yellow</div>
+            <div class="bg-yellow-dark-2 text-white">yellow dark 2</div>
+            <div class="bg-yellow-dark-4 text-white">yellow dark 4</div>
+            <div class="bg-yellow-dark-6 text-white">yellow dark 6</div>
+            <div class="bg-yellow-dark-8 text-white">yellow dark 8</div>
+          </div>
         </div>
       </div>
     </div>
 
-
-<!-- Library components -->
-<h2>Colors</h2>
-<div class="container display-b">
-<span class="text-primary">primary text</span> |
-<span class="text-secondary">secondary text</span> |
-<span class="text-error">error text</span> |
-<span class="text-info">info text</span> |
-<span class="text-blue">blue text</span> |
-<span class="text-red">red text</span> |
-<span class="text-green">green text</span> |
-<span class="text-yellow">yellow text</span> |
-<span class="text-purple">purple text</span> |
-<span class="text-orange">orange text</span> |
-<span class="text-gray">gray text</span>
-</div>
-
-<br /><br />
-<hr class="mt-4 mb-2"></hr>
-
-
+    <br /><br />
+    <hr class="mt-4 mb-2" />
   </body>
 </html>
